@@ -75,6 +75,15 @@ html {
 .swiper-pagination {
   z-index: 6;
 }
+
+.swiper-button-next:hover::after {
+  margin-left: 20px;
+}
+
+.swiper-button-prev:hover::after {
+  margin-right: 20px;
+}
+
 @media (max-width: 1083px){
   .my-swiper-slide {
     display: flex;
